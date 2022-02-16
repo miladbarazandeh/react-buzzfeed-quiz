@@ -105,9 +105,13 @@ const Result: FC<ResultProps> = (props) => {
         </div>
         <div className="rbq_result_footer">
           <button className="rbq_retake_quiz_button" onClick={handleRetakeQuiz}>
-            Retake
+            امتحان مجدد
           </button>
+          <a className="rbq_retake_quiz_button" href={finalResult[0].resultImageSrc?.toString()} download>
+            دانلود تصویر جهت اشتراک
+          </a>
           <ul className="rbq_share_links_list" aria-label="share">
+
             {copyShareButton && (
               <CopyLinkButton
                 shareLinkClicked={shareLinkClicked}

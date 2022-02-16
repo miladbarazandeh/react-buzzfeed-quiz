@@ -74,7 +74,7 @@ const CopyLinkButton: FC<CopyLinkButtonProps> = ({
             <div className="rbq_tooltip_outer_wrapper">
               <div className="rbq_tooltip_inner_wrapper">
                 <IoIosCheckmarkCircle />
-                <span>Link copied!</span>
+                <span>کپی شد</span>
               </div>
             </div>
           </div>
