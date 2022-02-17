@@ -107,7 +107,7 @@ const Result: FC<ResultProps> = (props) => {
             امتحان مجدد
           </button>
           <a className="rbq_retake_quiz_button" href={finalResult[0].resultImageSrc?.toString()} download>
-            دانلود تصویر جهت اشتراک
+            دانلود تصویر
           </a>
           <ul className="rbq_share_links_list" aria-label="share">
 
