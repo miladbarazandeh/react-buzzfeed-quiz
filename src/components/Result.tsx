@@ -92,7 +92,6 @@ const Result: FC<ResultProps> = (props) => {
             <div className="rbq_result_inner_image_container">
               <img
                 className="rbq_result_inner_image"
-                alt="Buzzfeed Quiz Result Image"
                 src={finalResult[0].resultImageSrc}
               />
               {finalResult[0].imageAttribution ? (
